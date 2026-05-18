@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-mirror-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "better-sqlite3": "^9.4.3",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.22.3",
+    "pino": "^9.2.0",
+    "pino-pretty": "^11.2.1",
+    "qrcode": "^1.5.4"
+  }
+}

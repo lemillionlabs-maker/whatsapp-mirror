@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-mirror",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/start-all.js",
+    "slave": "node slave/index.js",
+    "master": "node master/index.js",
+    "dashboard": "node dashboard/index.js",
+    "install:all": "npm install && cd slave && npm install && cd ../master && npm install && cd ../dashboard && npm install"
+  },
+  "dependencies": {
+    "mysql2": "^3.22.3"
+  }
+}

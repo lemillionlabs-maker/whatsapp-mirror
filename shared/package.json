@@ -1,0 +1,10 @@
+{
+  "name": "whatsapp-mirror-shared",
+  "version": "1.0.0",
+  "main": "db.js",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "better-sqlite3": "^9.4.3",
+    "mysql2": "^3.22.3"
+  }
+}
