@@ -10,6 +10,7 @@
     "install:all": "npm install && cd slave && npm install && cd ../master && npm install && cd ../dashboard && npm install"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "mysql2": "^3.22.3"
   }
 }
